@@ -1,0 +1,45 @@
+.top-bar {
+  background: #0d4d1f;
+  color: white;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.navbar-brand img {
+  height: 70px;
+}
+
+.nav-link {
+  color: #222;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.nav-link.active {
+  color: #0d4d1f;
+}
+
+.whatsapp-btn {
+  background: #0d4d1f;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 22px;
+}
+
+.whatsapp-btn:hover {
+  background: #146b2d;
+  color: white;
+}
+
+@media(max-width:991px) {
+
+  .navbar-nav {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .whatsapp-btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
