@@ -1,0 +1,18 @@
+<section class="products-section">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Our Products</h2>
+
+      <p>Fresh products directly from farm</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let item of products">
+        <div class="product-card">
+          <img [src]="item.image" class="img-fluid" />
+          <h5>{{ item.name }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
